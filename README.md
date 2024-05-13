@@ -129,6 +129,7 @@ OUTPUT:
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-4/assets/166374356/a69b62a9-c148-44e2-bba4-1d2485f835ea)
 
 UP-DOWN-COUNTER
+
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-4/assets/166374356/77e27c90-bea7-40bb-862e-75da25371b5d)
 
 PROGRAM
