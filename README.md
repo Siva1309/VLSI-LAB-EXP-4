@@ -115,7 +115,7 @@ COUNTER
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
 
 PROGRAM:
-
+```
 module mod_10(clk,rst,out);
 input clk,rst;
 output reg[3:0]out; 
@@ -123,7 +123,7 @@ always@(posedge clk)
 begin if(rst==1|out==9) out=4'b0;
 else out=out+1; 
 end endmodule
-
+```
 OUTPUT:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-4/assets/166374356/a69b62a9-c148-44e2-bba4-1d2485f835ea)
@@ -133,7 +133,7 @@ UP-DOWN-COUNTER
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-4/assets/166374356/77e27c90-bea7-40bb-862e-75da25371b5d)
 
 PROGRAM
-
+```
 module updown_counter(clk,rst,ud,out); 
 input clk,rst,ud; 
 output reg[3:0]out;
@@ -141,7 +141,7 @@ always@(posedge clk) begin if(rst==1) out=4'b0;
 else if (ud==1) out=out+1;
 else if(ud==0) out=out-1;
 end endmodule
-
+```
 OUTPUT
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-4/assets/166374356/28b91983-5e9f-4e2c-892d-106dfcbc399c)
